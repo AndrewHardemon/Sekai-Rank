@@ -1,0 +1,48 @@
+/* General styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f3f4f6; /* Light gray for a clean look */
+    color: #333;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+  }
+  
+  /* Container for all content */
+  .container {
+    background: #ffffff;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Soft shadow for card effect */
+    border-radius: 10px;
+    padding: 2rem;
+    width: 90%;
+    max-width: 600px;
+  }
+  
+  /* Title styling */
+  .title {
+    font-size: 2rem;
+    color: #38539c; /* Blue for emphasis */
+    margin-bottom: 2rem;
+  }
+  
+  /* Place section styling */
+  .place {
+    margin: 2rem 0;
+  }
+  
+  /* Number styling */
+  .number {
+    font-size: 1.5rem;
+    color: #4b5563; /* Darker gray for contrast */
+    background: #e5e7eb; /* Light gray for better visibility */
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    user-select: text; /* Ensures numbers are easy to copy */
+    display: inline-block; /* Makes the box shrink to the text size */
+    margin-top: 0.5rem;
+  }
+  
